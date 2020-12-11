@@ -66,6 +66,40 @@
     top: 298px;
   }
 
+
+  .name {
+    font-family: 'Spartan', sans-serif;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: absolute;
+    left: 7%;
+    top: 15%;
+  }
+
+
+
+  .title {
+    font-family: 'Sanchez';
+    font-size: 28px;
+    color: rgb(12, 118, 204);
+    font-weight: bold;
+    position: absolute;
+    left: 7.8%;
+    top: 33%;
+  }
+
+  .projects {
+    font-family: 'Sanchez';
+    font-size: 28px;
+    color: rgba(154, 214, 154, 0.774);
+    font-weight: bold;
+    position: absolute;
+    left: 11.7%;
+    top: 39.5%;
+  }
+
+
   a {
     color: white;
   }
