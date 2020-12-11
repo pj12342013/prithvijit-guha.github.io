@@ -110,12 +110,12 @@
 /* for mobile devices */
 @media (max-width: 480px){
     body{
-      background-image: url("profile-mobile.png");
+      background-image: url("profile-mobile3.png");
     }
 
     .social{
     left: 12%;
-    top: 65%;
+    top: 90%;
     }
 
     .name{
@@ -124,18 +124,18 @@
     }
 
     .title{
-    top: 40%;
-    left: 8%;
+    top: 68%;
+    left: 2%;
     }
 
     .projects{
-    top: 45%;
-    left: 18%;
+    top: 71%;
+    left: 10%;
     }
 
     .text {
-    top: 54%;
-    left: 20%;
+    top: 79%;
+    left: 18%;
     }
 }
 
@@ -146,10 +146,25 @@
   body {
     background-image: url("profile.png");
         }
-
+  
+  .name{
+      top: 8%;
+      left: 2%;
+    }
+  
+  .title{
+      top: 40%;
+      left: 8%;
+      }
+  
+  .projects{
+      top: 48%;
+      left: 12%;
+  }
+  
   .text {
-  top: 54%;
-  left: 20%;
+  top: 65%;
+  left: 15%;
   }
 
   }
