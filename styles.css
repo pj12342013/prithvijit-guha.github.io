@@ -46,8 +46,8 @@
 
   .social{
   position: absolute;
-  left: 450px;
-  top: 450px;
+  left: 35%;
+  top: 80%;
     }
   
 
@@ -109,9 +109,34 @@
 
 /* for mobile devices */
 @media (max-width: 480px){
-body {
-  background-image: url("profile.png");
-      }
+    body{
+      background-image: url("profile-mobile.png");
+    }
+
+    .social{
+    left: 12%;
+    top: 65%;
+    }
+
+    .name{
+    top: 8%;
+    left: 8%;
+    }
+
+    .title{
+    top: 40%;
+    left: 8%;
+    }
+
+    .projects{
+    top: 45%;
+    left: 18%;
+    }
+
+    .text {
+    top: 54%;
+    left: 20%;
+    }
 }
 
 
@@ -121,6 +146,12 @@ body {
   body {
     background-image: url("profile.png");
         }
+
+  .text {
+  top: 54%;
+  left: 20%;
+  }
+
   }
 
 
