@@ -7,7 +7,7 @@
     margin: 5px 2px;
     border-radius: 50%;
   }
-  
+
   .fa:hover {
       opacity: 0.7;
   }
@@ -21,10 +21,7 @@
     margin: 5px 2px;
     border-radius: 50%;
   }
-  
-  .links:hover {
-      opacity: 0.7;
-  }
+
 
 
   .fa-facebook {
@@ -44,57 +41,68 @@
     color: white;
   }
 
-  .social{
-  position: absolute;
+  .social {
   left: 35%;
-  top: 80%;
-    }
-  
+  top: 90%;
+  font-size: 22px;
+  position: absolute;
+  }
+
 
     body, html {
       height: 100%;
       margin: 0;
     }
 
-   
+
   .text {
     font-family: 'Sanchez';
-    font-size: 28px;
-    
     position: absolute;
-    left: 187px;
-    top: 298px;
+    top: 45%;
+    left: 15%;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .text2 {
+    font-family: 'Sanchez';
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    font-size: 30px;
+    font-weight: bold;
   }
 
 
   .name {
     font-family: 'Spartan', sans-serif;
-    font-size: 55px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     position: absolute;
-    left: 7%;
     top: 15%;
+    left: 10%;
+    font-size: 55px;
   }
 
   .title {
     font-family: 'Sanchez';
-    font-size: 28px;
     color: rgb(12, 118, 204);
     font-weight: bold;
     position: absolute;
-    left: 7.8%;
-    top: 33%;
+    top: 30%;
+    left: 12%;
+    font-size: 30px;
   }
 
   .projects {
     font-family: 'Sanchez';
-    font-size: 28px;
     color: rgba(154, 214, 154, 0.774);
     font-weight: bold;
     position: absolute;
-    left: 11.7%;
-    top: 39.5%;
+    top: 35%;
+    left: 15%;
+    font-size: 30px;
+
   }
 
 
@@ -102,10 +110,36 @@
     color: white;
   }
 
+  a: hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+
+
+
+
+
 
   .text:hover {
     opacity: 0.7;
 }
+
+ .text2:hover {
+    opacity: 0.7;
+}
+
+
+  body {
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+
+
+
 
 /* for mobile devices */
 @media (max-width: 480px){
@@ -137,7 +171,61 @@
     top: 79%;
     left: 18%;
     }
+
+    .text2 {
+    top: 79%;
+    left: 18%;
+    }
 }
+
+/* mobile devices 375(iphone 6/7/8) */
+
+@media (max-width: 376px)
+{
+  body{
+    background-image: url("profile-mobile3.png");
+  }
+
+  .social{
+  left: 2%;
+  top: 90%;
+  font-size: 22px;
+  }
+
+  .name{
+  top: 0%;
+  left: 0%;
+  font-size: 40 px;
+  }
+
+  .title{
+  top: 70%;
+  left: 3%;
+  font-size: 22px;
+  }
+
+  .projects{
+  top: 74%;
+  left: 10%;
+  font-size: 22px;
+  }
+
+  .text {
+  top: 82%;
+  left: 15%;
+  font-size: 22px;
+  }
+
+   .text2 {
+  top: 82%;
+  left: 15%;
+  font-size: 22px;
+  }
+}
+
+
+
+
 
 /* for mobile devices */
 @media (max-width: 370px){
@@ -174,6 +262,12 @@
   left: 15%;
   font-size: 22px;
   }
+
+   .text2 {
+  top: 82%;
+  left: 15%;
+  font-size: 22px;
+  }
 }
 
 
@@ -187,7 +281,7 @@
   .social{
   left: 2%;
   top: 90%;
-  font-size: 22px;
+  font-size: 20px;
   }
 
   .name{
@@ -197,24 +291,30 @@
   }
 
   .title{
-  top: 67%;
+  top: 69%;
   left: 0%;
-  font-size: 22px;
+  font-size: 20px;
   }
 
   .projects{
-  top: 71%;
+  top: 73%;
   left: 5%;
-  font-size: 22px;
+  font-size: 20px;
   }
 
   .text {
-  top: 80%;
+  top: 82%;
   left: 7%;
-  font-size: 22px;
+  font-size: 20px;
   }
-}
 
+  .text2 {
+  top: 82%;
+  left: 7%;
+  font-size: 20px;
+  }
+
+}
 
 
 
@@ -224,28 +324,33 @@
   body {
     background-image: url("profile.png");
         }
-  
+
   .name{
       top: 8%;
       left: 2%;
     }
-  
+
   .title{
       top: 40%;
       left: 8%;
       }
-  
+
   .projects{
       top: 48%;
       left: 12%;
   }
-  
+
   .text {
   top: 65%;
   left: 15%;
   }
 
+  .text2 {
+  top: 65%;
+  left: 15%;
   }
+
+}
 
 
 /* for desktop devices */
@@ -253,13 +358,7 @@
     body {
       background-image: url("profile.png");
           }
-    }
+}
 
 
-  body {
-      background-position: center center;
-      background-attachment: fixed; 
-      background-repeat: no-repeat; 
-      background-size: cover; 
-  }
 
