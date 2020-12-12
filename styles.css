@@ -141,7 +141,7 @@
 
 
 
-/* for mobile devices */
+/* for mobile devices 480px */
 @media (max-width: 480px){
     body{
       background-image: url("profile-mobile3.png");
