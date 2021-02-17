@@ -156,6 +156,23 @@
   }
 
 
+  
+#alltext {
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 4s;
+  animation-fill-mode:forwards;
+}
+
+
+
+@keyframes fadein
+{
+  0%{opacity: 0}
+  100%{opacity:1}
+}
+
+
 
 
 
@@ -379,18 +396,5 @@
 }
 
 
-#alltext {
-  opacity: 0;
-  animation-name: fadein;
-  animation-duration: 3s;
-  animation-fill-mode:forwards;
-  
-}
-
-@keyframes fadein
-{
-  0%{opacity: 0}
-  100%{opacity:1}
-}
 
 
