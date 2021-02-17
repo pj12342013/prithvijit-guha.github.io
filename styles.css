@@ -211,6 +211,12 @@
     top: 83%;
     left: 18%;
     }
+
+    
+    .text3 {
+      top: 83%;
+      left: 18%;
+    }
 }
 
 /* mobile devices 375(iphone 6/7/8) */
@@ -234,13 +240,13 @@
   }
 
   .title{
-  top: 70%;
+  top: 67.5%;
   left: 3%;
   font-size: 22px;
   }
 
   .projects{
-  top: 74%;
+  top: 75.5%;
   left: 10%;
   font-size: 22px;
   }
@@ -256,6 +262,13 @@
   left: 15%;
   font-size: 22px;
   }
+
+  
+  .text3 {
+    top: 88%;
+    left: 15%;
+    font-size: 22px;
+    }
 }
 
 
@@ -288,7 +301,7 @@
 
   .projects{
   top: 74%;
-  left: 10%;
+  left: 35%;
   font-size: 22px;
   }
 
@@ -326,15 +339,15 @@
   }
 
   .title{
-  top: 69%;
+  top: 67%;
   left: 0%;
   font-size: 20px;
   }
 
   .projects{
-  top: 73%;
+  top: 75%;
   left: 5%;
-  font-size: 20px;
+  font-size: 18px;
   }
 
   .text {
@@ -345,6 +358,12 @@
 
   .text2 {
   top: 86%;
+  left: 7%;
+  font-size: 20px;
+  }
+
+  .text3 {
+  top: 90%;
   left: 7%;
   font-size: 20px;
   }
@@ -383,6 +402,11 @@
   .text2 {
   top: 69%;
   left: 15%;
+  }
+  
+  .text3 {
+    top: 61%;
+    left: 15%;
   }
 
 }
