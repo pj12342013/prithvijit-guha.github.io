@@ -74,6 +74,16 @@
     text-decoration: None;
    }
 
+   
+  .text3 {
+    font-family: 'Sanchez';
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    font-size: 30px;
+    text-decoration: None;
+   }
+
 
   .name {
     font-family: 'Spartan', sans-serif;
@@ -111,7 +121,7 @@
     color: white;
   }
 
-  a: hover{
+  a:hover{
     cursor: pointer;
   }
 
@@ -368,5 +378,19 @@
           }
 }
 
+
+#alltext {
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-fill-mode:forwards;
+  
+}
+
+@keyframes fadein
+{
+  0%{opacity: 0}
+  100%{opacity:1}
+}
 
 
