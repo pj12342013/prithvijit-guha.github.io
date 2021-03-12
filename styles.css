@@ -1,166 +1,72 @@
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-
-  .fa:hover {
-      opacity: 0.7;
-  }
-
-  .links {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
+html {
+  background: url('profile.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
 
 
 
-  .fa-facebook {
-    color: white;
-  }
-
-
-  .fa-linkedin {
-    color: white;
-  }
-
-  .fa-github {
-    color: white;
-  }
-
-  .fa-youtube {
-    color: white;
-  }
-
-  .social {
-  left: 35%;
-  top: 90%;
-  font-size: 22px;
+.name {
+  color:white;
   position: absolute;
-  }
+  left: 10%;
+  top: 10%;
+  font-size: 900%;
+  width: 60%;
+  font-family: 'Poppins', sans-serif;
+}
 
+.title {
+  color: #3366ff;
+  font-size: 500%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 60%;
+  font-family: 'Poppins', sans-serif;
+}
 
-    body, html {
-      height: 100%;
-      margin: 0;
-    }
+#projects {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  font-family: 'Poppins', sans-serif;
+}
 
+#projects #btnGroupDrop1{
+  font-size: 200%;
+  font-weight: lighter;
+}
 
-  .text {
-    font-family: 'Sanchez';
-    position: absolute;
-    top: 45%;
-    left: 15%;
-    font-size: 30px;
-    text-decoration: None;
+#socialmedia {
+  position: absolute;
+  top: 85%;
+  left: 7%;
+  width: 58%;  
+}
 
-  }
+.icon {
+  margin: 5%;
+  color: #f2f2f2;
+}
 
-  .text2 {
-    font-family: 'Sanchez';
-    position: absolute;
-    top: 50%;
-    left: 15%;
-    font-size: 30px;
-    text-decoration: None;
-   }
+.icon:hover {
+  color: 	#3399ff;
+}
 
-   
-  .text3 {
-    font-family: 'Sanchez';
-    position: absolute;
-    top: 55%;
-    left: 15%;
-    font-size: 30px;
-    text-decoration: None;
-   }
-
-
-  .name {
-    font-family: 'Spartan', sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    font-size: 55px;
-  }
-
-  .title {
-    font-family: 'Sanchez';
-    color: rgb(12, 118, 204);
-    font-weight: bold;
-    position: absolute;
-    top: 30%;
-    left: 12%;
-    font-size: 30px;
-  }
-
-  .projects {
-    font-family: 'Sanchez';
-    color: rgba(154, 214, 154, 0.774);
-    font-weight: bold;
-    position: absolute;
-    top: 35%;
-    left: 15%;
-    font-size: 30px;
-
-  }
-
-
-  a {
-    color: white;
-  }
-
-  a:hover{
-    cursor: pointer;
-  }
-
-  a.text:hover {
-    opacity: 0.7;
-  }
-
-   a.text:active {
-    opacity: 0.7;
-  }
-
-
-    a.text2:hover {
-    opacity: 0.7;
-  }
-
-   a.text2:active {
-    opacity: 0.7;
-  }
-
-
-
-
-
-
-
-  body {
-      background-position: center center;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-
+.dropdown-menu a:hover
+{
+  color: #fff;
+  border-color: black;
+  background-color:	 	 #4d94ff;
+}
 
   
 #alltext {
   opacity: 0;
   animation-name: fadein;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-fill-mode:forwards;
 }
 
@@ -173,252 +79,79 @@
 }
 
 
-
-
-
-/* for mobile devices 480px */
-@media (max-width: 480px){
-    body{
-      background-image: url("profile-mobile3.png");
-    }
-
-    .social{
-    left: 12%;
-    top: 90%;
-    }
-
-    .name{
-    top: 8%;
-    left: 8%;
-    }
-
-    .title{
-    top: 68%;
-    left: 2%;
-    }
-
-    .projects{
-    top: 71%;
-    left: 10%;
-    }
-
-    .text {
-    top: 79%;
-    left: 18%;
-    }
-
-    .text2 {
-    top: 83%;
-    left: 18%;
-    }
-
-    
-    .text3 {
-      top: 83%;
-      left: 18%;
-    }
-}
-
-/* mobile devices 375(iphone 6/7/8) */
-
-@media (max-width: 376px)
-{
-  body{
-    background-image: url("profile-mobile3.png");
+/* Mobile Devices */
+@media (max-width: 540px){
+  
+  html {
+    background: url('profile-mobile.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
   }
 
-  .social{
-  left: 2%;
-  top: 90%;
-  font-size: 22px;
-  }
-
-  .name{
-  top: 0%;
-  left: 0%;
-  font-size: 40 px;
-  }
-
-  .title{
-  top: 67.5%;
-  left: 3%;
-  font-size: 22px;
-  }
-
-  .projects{
-  top: 75.5%;
-  left: 10%;
-  font-size: 22px;
-  }
-
-  .text {
-  top: 82%;
-  left: 15%;
-  font-size: 22px;
-  }
-
-   .text2 {
-  top: 85%;
-  left: 15%;
-  font-size: 22px;
+  * {
+    font-size: 70%;
   }
 
   
-  .text3 {
-    top: 88%;
-    left: 15%;
-    font-size: 22px;
-    }
-}
-
-
-
-
-
-/* for mobile devices */
-@media (max-width: 370px){
-  body{
-    background-image: url("profile-mobile3.png");
-  }
-
-  .social{
-  left: 2%;
-  top: 90%;
-  font-size: 22px;
-  }
-
-  .name{
-  top: 0%;
-  left: 0%;
-  font-size: 40 px;
-  }
-
-  .title{
-  top: 70%;
-  left: 3%;
-  font-size: 22px;
-  }
-
-  .projects{
-  top: 74%;
-  left: 35%;
-  font-size: 22px;
-  }
-
-  .text {
-  top: 82%;
-  left: 15%;
-  font-size: 22px;
-  }
-
-   .text2 {
-  top: 85%;
-  left: 15%;
-  font-size: 22px;
-  }
-}
-
-
-
-/* for mobile devices */
-@media (max-width: 320px){
-  body{
-    background-image: url("profile-mobile3.png");
-  }
-
-  .social{
-  left: 2%;
-  top: 90%;
-  font-size: 20px;
-  }
-
-  .name{
-  top: 0%;
-  left: 0%;
-  font-size: 40 px;
-  }
-
-  .title{
-  top: 67%;
-  left: 0%;
-  font-size: 20px;
-  }
-
-  .projects{
-  top: 75%;
-  left: 5%;
-  font-size: 18px;
-  }
-
-  .text {
-  top: 82%;
-  left: 7%;
-  font-size: 20px;
-  }
-
-  .text2 {
-  top: 86%;
-  left: 7%;
-  font-size: 20px;
-  }
-
-  .text3 {
-  top: 90%;
-  left: 7%;
-  font-size: 20px;
-  }
-
-}
-
-
-
-/* for tablet devices */
-
-@media (min-width: 481px) and (max-width: 1024px) {
-  body {
-    background-image: url("profile.png");
-        }
-
-  .name{
-      top: 8%;
-      left: 2%;
-    }
-
-  .title{
-      top: 40%;
-      left: 8%;
-      }
-
-  .projects{
-      top: 48%;
-      left: 12%;
-  }
-
-  .text {
+#projects {
   top: 65%;
-  left: 15%;
-  }
-
-  .text2 {
-  top: 69%;
-  left: 15%;
-  }
-  
-  .text3 {
-    top: 61%;
-    left: 15%;
-  }
-
-}
-
-
-/* for desktop devices */
-@media (min-width: 1025px) {
-    body {
-      background-image: url("profile.png");
-          }
+  left: 10%;
+  font-size: 150%;
 }
 
 
 
 
+#socialmedia {
+  position: absolute;
+  top: 90%;
+  left: 7%;
+  width: 100%;
+}
+
+.icon {
+  color: #f2f2f2;
+}
+
+
+}
+
+/* Mobile Optimization */
+@media (max-width: 414px){
+  #socialmedia {
+    left: 2%;
+    
+  }
+
+  .title {
+    top: 40%;
+    font-size: 300%;
+    width: 90%; 
+  }
+
+  #projects {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .dropdown-menu a
+  {
+    font-size: 120%;
+    width: 80%;
+  }
+
+
+}
+
+
+
+/* Mobile Optimization */
+@media (max-width: 320px){
+  #socialmedia {
+    left: -2%;
+    width: 105%;    
+  }
+}
