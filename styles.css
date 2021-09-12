@@ -194,3 +194,43 @@ html {
 }
 
 
+/* Large devices (laptops/desktops, 992px and up and less than 1300px) */
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+  .name {
+    font-size: 500%;
+  }
+  .title {
+    font-size: 180%;
+  }
+  #projects {
+    font-size: 200%;
+  }
+  #projects #btnGroupDrop1{
+    font-size: 200%;
+  }
+  #socialmedia {
+    font-size: 200%;
+  }
+  .icon {
+    font-size: 200%;
+  }
+  
+  #socialmedia {
+    font-size: 100%;
+  }
+  
+  .icon {
+    font-size: 200%;
+  }
+  
+  .dropdown-menu {
+    font-size: 200%;
+  }
+
+  #projects #btnGroupDrop1{
+    font-size: 100%;
+  }
+
+}
+
+
