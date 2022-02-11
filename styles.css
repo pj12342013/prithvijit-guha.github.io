@@ -43,7 +43,7 @@ html {
   position: absolute;
   top: 85%;
   left: 7%;
-  width: 58%;  
+  width: 58%;
 }
 
 .icon {
@@ -62,7 +62,7 @@ html {
   background-color:	 	 #4d94ff;
 }
 
-  
+
 #alltext {
   opacity: 0;
   animation-name: fadein;
@@ -81,7 +81,7 @@ html {
 
 /* Mobile Devices */
 @media (max-width: 540px){
-  
+
   html {
     background: url('profile-mobile.png') no-repeat center center fixed;
     background-size: cover;
@@ -93,7 +93,7 @@ html {
     font-size: 70%;
   }
 
-  
+
 #projects {
   top: 65%;
   left: 10%;
@@ -121,13 +121,13 @@ html {
 @media (max-width: 414px){
   #socialmedia {
     left: 4%;
-    
+
   }
 
   .title {
     top: 40%;
     font-size: 300%;
-    width: 90%; 
+    width: 90%;
   }
 
   #projects {
@@ -142,7 +142,7 @@ html {
     font-size: 120%;
     width: 80%;
   }
-  
+
   .dropdown-menu b
   {
     font-size: 120%;
@@ -161,8 +161,8 @@ html {
     width: 110%;
   }
 
-  
-  
+
+
 }
 
 /* Mobile Optimization */
@@ -214,15 +214,15 @@ html {
   .icon {
     font-size: 200%;
   }
-  
+
   #socialmedia {
     font-size: 100%;
   }
-  
+
   .icon {
     font-size: 200%;
   }
-  
+
   .dropdown-menu {
     font-size: 200%;
   }
@@ -232,5 +232,45 @@ html {
   }
 
 }
+
+/* Large devices (laptops/desktops more than 1301px) */
+@media only screen and (min-width: 1301px){
+  .name {
+    font-size: 500%;
+  }
+  .title {
+    font-size: 275%;
+  }
+  #projects {
+    font-size: 200%;
+  }
+  #projects #btnGroupDrop1{
+    font-size: 200%;
+  }
+  #socialmedia {
+    font-size: 200%;
+  }
+  .icon {
+    font-size: 200%;
+  }
+
+  #socialmedia {
+    font-size: 100%;
+  }
+
+  .icon {
+    font-size: 200%;
+  }
+
+  .dropdown-menu {
+    font-size: 200%;
+  }
+
+  #projects #btnGroupDrop1{
+    font-size: 100%;
+  }
+
+}
+
 
 
